@@ -1,0 +1,114 @@
+.root {
+  background-color: #f5f5f5;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center !important;
+  overflow: hidden;
+  align-items: center;
+}
+
+.textRegister1 {
+  font-family: "Airbnb Cereal App";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 1px;
+  text-align: center;
+  
+
+  color: #efc81a;
+}
+
+.textRegister2 {
+  font-family: "Airbnb Cereal App";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  /* identical to box height */
+
+  text-align: center;
+  margin-bottom: 35px;
+
+  color: #999999;
+}
+
+.formName {
+  width: 319px;
+  height: 50px;
+  left: 28px;
+  top: 225px;
+
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.formEmail {
+  width: 319px;
+  height: 50px;
+  left: 28px;
+  top: 305px;
+
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.formPhone {
+  width: 319px;
+  height: 50px;
+  left: 28px;
+  top: 385px;
+
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.formPassword {
+  width: 319px;
+  height: 50px;
+  left: 28px;
+  top: 465px;
+
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.formNewPassword {
+  width: 319px;
+  height: 50px;
+  left: 28px;
+  top: 545px;
+
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.buttonRegister {
+  width: 319px;
+  height: 50px;
+  left: 28px;
+  top: 645px;
+
+  background: #efc81a;
+  border-radius: 10px;
+  border: none;
+  color: #FFFFFF;
+}
+
+.textBottom{
+    text-align: center;
+
+    font-family: 'Airbnb Cereal App';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 45px;
+    /* identical to box height */
+
+
+    color: #999999;
+}
+
+.textLink{
+  text-decoration: none;
+  color: #EFC81A !important;
+}

@@ -1,0 +1,72 @@
+.root {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center !important;
+  overflow: hidden;
+  align-items: center;
+
+  }
+
+  .text1{
+    width: 92px;
+    height: 23px;
+    left: 136px;
+    top: 71px;
+    font-family: 'Airbnb Cereal App';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #EEC302;
+    margin-left: 80px;
+    margin-top: -40px;
+  }
+
+  .back{
+
+    width: 48px;
+    height: 48px;
+    left: 24px;
+    top: 60px;
+    
+    /* Extra Light */
+    
+    background: #F8F8FA;
+    border-radius: 16px;
+  }
+
+  /* Popular For you Section */
+.popularForYou {
+  margin: 40px 0px;
+  
+}
+
+.popularRecipe h6 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #666666;
+  
+}
+
+.popularRecipe p,
+.popularRecipe span {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height */
+  
+
+  color: #b6b6b6;
+}
+
+.position{
+  position: absolute;
+  /* margin-top: 55px; */
+  /* margin-right: 185px; */
+  margin-top: -240px;
+  margin-left: -180px;
+}
