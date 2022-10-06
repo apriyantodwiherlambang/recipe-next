@@ -68,12 +68,15 @@ function MainLayout(props) {
                 height="25px"
               />
             </Link>
-            <img
-              src="/images/message-icon.png"
-              alt="icon"
-              width="25px"
-              height="25px"
-            />
+            <Link href="/chat">
+              <img
+                src="/images/message-icon.png"
+                alt="icon"
+                width="25px"
+                height="25px"
+              />
+            </Link>
+
             <Link href="/profile">
               <img
                 src="/images/user-icon.png"

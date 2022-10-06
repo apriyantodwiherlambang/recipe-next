@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 import React from "react";
 import loginStyle from "../styles/pages/Login.module.css";
 import Image from "next/image";

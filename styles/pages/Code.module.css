@@ -1,0 +1,43 @@
+.f28{
+    color: #666666;
+    font-size: 28px;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.f2{
+    margin-bottom: 5px;
+    color: #666666;
+}
+
+.fyellow{
+    margin-bottom: 70px;
+    font-size: 18px;
+    color: #EFC81A;
+}
+
+.fgrey2{
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 16px !important;
+    color: #666666;
+}
+
+.mbot50{
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+.svgrey1{
+    width: 18px;
+    filter: invert(93%) sepia(1%) saturate(0%) hue-rotate(154deg) brightness(84%) contrast(93%);
+}
+
+.root {
+    background-color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center !important;
+    overflow: hidden;
+    align-items: center;
+  }

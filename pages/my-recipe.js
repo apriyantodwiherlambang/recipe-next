@@ -1,11 +1,14 @@
+/* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Image from "next/image";
 import MyRecipeStyles from "../styles/pages/MyRecipe.module.css";
 
 export default function myRecipe() {
   return (
-    <div className={MyRecipeStyles.root}>
-      {/* <div className="d-flex justify-content-center">
+    <>
+      <div className={MyRecipeStyles.root}>
+        {/* <div className="d-flex justify-content-center">
         <div className="col-lg-1 col-sm-6">
           <div className={MyRecipeStyles.back}>
             <Image
@@ -18,9 +21,9 @@ export default function myRecipe() {
           </div>
         </div>
       </div> */}
-      <p className={MyRecipeStyles.text1}>My Recipe</p>
-      {/* Popular Recipes */}
-      <section className={MyRecipeStyles.popularRecipe}>
+        <p className={MyRecipeStyles.text1}>My Recipe</p>
+        {/* Popular Recipes */}
+        <section className={MyRecipeStyles.popularRecipe}>
           <div className={MyRecipeStyles.position}>
             {[...new Array(6)].map((item, index) => (
               <div
@@ -62,7 +65,8 @@ export default function myRecipe() {
             ))}
           </div>
         </section>
-      {/* End Of Popular Recipes */}
-    </div>
+        {/* End Of Popular Recipes */}
+      </div>
+    </>
   );
 }
