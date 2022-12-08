@@ -24,13 +24,14 @@ function login() {
     setIsLoading(true);
     setTimeout(() => {
       axios
-        .post("/api/auth/login", { email, password })
-        .then((respose) => {
+        .post("http://localhost:8080/auth/login", { email, password })
+        .then((response) => {
+          console.log(response.data)
           dispatch({
             type: Type.SET_AUTH,
             payload: {
-              token: respose?.data?.token,
-              user: respose?.data?.user,
+              token: response?.data?.result?.auth_token,
+              user: response?.data?.result?.user,
             },
           });
 

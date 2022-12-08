@@ -160,9 +160,9 @@ function Home() {
                     borderRadius: "15px",
                     padding: "10px",
                     border: "none",
-                    "box-shadow": "2px 2px 5px 1px rgba(0,0,0,0.12)",
-                    "-webkit-box-shadow": "2px 2px 5px 1px rgba(0,0,0,0.12)",
-                    "-moz-box-shadow": "2px 2px 5px 1px rgba(0,0,0,0.12)",
+                    boxShadow: "2px 2px 5px 1px rgba(0,0,0,0.12)",
+                    WebkitBoxShadow: "2px 2px 5px 1px rgba(0,0,0,0.12)",
+                    MozBoxShadow: "2px 2px 5px 1px rgba(0,0,0,0.12)",
                     marginBottom: "20px",
                     cursor: "pointer",
                   }}
