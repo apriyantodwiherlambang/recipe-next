@@ -1,8 +1,59 @@
+.s1 {
+  border-radius: 15px;
+  padding: 13px 20px 15px 20px;
+  background-color: #EFEFEF;
+  margin-left: 10px;
+}
+
+.s2 {
+  font-weight: bold;
+  font-size: 18px;
+  align-self: center;
+  color: #EFC81A;
+  margin-left: 65px;
+}
+
+.s3 {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.s4 {
+  font-size: 50%;
+  color: #6E80B0;
+  margin-bottom: 5px;
+  font-size: .875em;
+}
+
+.mbot50 {
+  margin-bottom: 30px;
+}
+
+.mbot25 {
+  margin-bottom: 25px;
+  padding: 5px;
+  margin-left: 5px;
+}
+
+.center {
+  align-self: center;
+}
+
+.b {
+  font-weight: bold;
+}
+
+.contentRecipe {
+  margin-left: 20px;
+}
+
 .root {
-    background-color: #ffffff;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center !important;
-    overflow: hidden;
-    align-items: center;
-  }
+  background-color: #ffffff;
+  min-height: 50vh;
+  display: flex;
+  justify-content: center !important;
+  overflow: hidden;
+  align-items: center;
+  margin-right: 85px;
+}

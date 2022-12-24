@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import CodeStyle from "../styles/pages/Code.module.css";
+import Image from "next/image";
 
 function code() {
   return (
@@ -12,26 +13,26 @@ function code() {
             <div className={CodeStyle.mbot50}>
               <div className="row text-center">
                 <div className="col-2">
-                  <img src="/assets/Ellipse 49.png" />
+                  <Image src="/assets/Ellipse 49.png" />
                 </div>
                 <div className="col-2">
-                  <img
+                  <Image
                     src="/assets/Ellipse 49.png"
                     width="70px"
                     height="70px"
                   />
                 </div>
                 <div className="col-2">
-                  <img src="/assets/ellipse.svg" className="w18 svgrey1" />
+                  <Image src="/assets/ellipse.svg" className="w18 svgrey1" />
                 </div>
                 <div className="col-2">
-                  <img src="/assets/ellipse.svg" className="w18 svgrey1" />
+                  <Image src="/assets/ellipse.svg" className="w18 svgrey1" />
                 </div>
                 <div className="col-2">
-                  <img src="/assets/ellipse.svg" className="w18 svgrey1" />
+                  <Image src="/assets/ellipse.svg" className="w18 svgrey1" />
                 </div>
                 <div className="col-2">
-                  <img src="/assets/ellipse.svg" className="w18 svgrey1" />
+                  <Image src="/assets/ellipse.svg" className="w18 svgrey1" />
                 </div>
               </div>
             </div>

@@ -1,49 +1,40 @@
+/* eslint-disable react/jsx-no-undef */
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import SearchStyles from "../styles/pages/Search.module.css";
+import searchRecipeStyle from "../styles/pages/SavedRecipe.module.css";
+import Image from "next/image";
 
-function search() {
-  <>
-    <div className={SearchStyles.root}>
-      <div className="section">
-        <div className="container">
-          <div className="col-12">
-            <label className="s1 ">
-              <img src="assets/search.svg" className="s12" />
-            </label>
-            <input
-              type="text"
-              className="form-control s2"
-              placeholder="Search Pasta, Bread, etc"
-            />
-          </div>
+function searchRecipe() {
+  return (
+    <div class="section">
+      <div class="container">
+        <div class="col-12">
+          <label class={searchRecipeStyle.s1}><img src="assets/search.svg" class={searchRecipeStyle.s12} /></label>
+          <input type="text" class="form-control s2" placeholder="Search Pasta, Bread, etc" />
         </div>
       </div>
 
-      <div className="section s9">
-        <div className="container">
-          <div className="row s10">
-            <div className="col-3">
-              <div className="col-12 s3">
-                <img src="assets/Group.png" />
-              </div>
-            </div>
-            <div className="col-9 s4">
-              <div className="s5">Black Fish</div>
-              <div>
-                <img src="assets/star.svg" className="s6" /> <b>4.6</b>
-                <span className="s7">&nbsp; . &nbsp;</span>
-                <span className="s11">Seafood</span>
-              </div>
+      <div class="container s9">
+        <div class="row s10">
+          <div class="col-3">
+            <div class="col-12 s3">
+              <img src="assets/Group.png" />
             </div>
           </div>
-          <div className="col-12 s8">Dishes</div>
+          <div class="col-9 s4">
+            <div class={searchRecipeStyle.s5}>Black Fish</div>
+            <div>
+              <img src="assets/star.svg" class={searchRecipeStyle.s6} /> <b>4.6</b>
+              <span class={searchRecipeStyle.s7}>&nbsp; . &nbsp;</span>
+              <span class="s11">Seafood</span>
+            </div>
+          </div>
         </div>
+        <div class="col-12 s8">Dishes</div>
       </div>
-      
     </div>
-  </>;
+  );
 }
 
-export default search;
+export default searchRecipe;

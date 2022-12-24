@@ -6,7 +6,7 @@ function register() {
   return (
     <main className={registerStyle.root}>
       <div>
-        <p className={registerStyle.textRegister1}>Let's Get Started !</p>
+        <p className={registerStyle.textRegister1}>Lets Get Started !</p>
         <p className={registerStyle.textRegister2}>
           Create new account to access all feautures
         </p>
